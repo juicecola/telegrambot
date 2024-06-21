@@ -1,3 +1,4 @@
+from bot import bot, API_TOKEN
 import telebot
 from telebot import types
 import requests
@@ -5,7 +6,6 @@ from datetime import datetime, timedelta
 import pytz
 
 # Replace with your Telegram Bot token and Football Data API token
-API_TOKEN = '7185441196:AAHEmkIXKAWdSH2lVmwd8qZNA0o2aVGEPrI'
 FOOTBALL_API_TOKEN = 'bb887f7ffe4f40f89d38bd2fc37cfd45'
 
 bot = telebot.TeleBot(API_TOKEN)
